@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TKSequenceTextField_Example' do
+  pod 'TKSequenceTextField', :path => '../'
+
+  target 'TKSequenceTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

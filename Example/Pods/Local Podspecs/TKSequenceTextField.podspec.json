@@ -1,0 +1,27 @@
+{
+  "name": "TKSequenceTextField",
+  "version": "0.1.0",
+  "summary": "A short description of TKSequenceTextField.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Edudjr/TKSequenceTextField",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Edudjr": "eduardo.djr@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Edudjr/TKSequenceTextField.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TKSequenceTextField/Classes/**/*",
+  "dependencies": {
+    "TLCustomMask": [
+      "~> 0.1"
+    ]
+  }
+}

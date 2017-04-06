@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import TKSequenceTextField
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sequenceTextField: TKSequenceTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        sequenceTextField.setMaskSequence(maskSequence: ["$$.$$","$$$-$$"])
     }
 
     override func didReceiveMemoryWarning() {

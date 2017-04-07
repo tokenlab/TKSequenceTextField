@@ -1,7 +1,7 @@
 PODS:
   - TKSequenceTextField (0.1.0):
-    - TLCustomMask (~> 0.1)
-  - TLCustomMask (0.1.0)
+    - TLCustomMask (~> 1.0)
+  - TLCustomMask (1.0.0)
 
 DEPENDENCIES:
   - TKSequenceTextField (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TKSequenceTextField: 5ba367331b0cd766bd3c7a12da9c03f0fa927a98
-  TLCustomMask: db536702517f22e225c301b9251e8f05e1d5b664
+  TKSequenceTextField: 73f55697a4b0acaeb102bf310919a2dfae5499f2
+  TLCustomMask: 04beb64040c5d242ca94ee41b411185eee54a978
 
 PODFILE CHECKSUM: c9b25a9732879b5a9e0e20389b235938f3acb82d
 

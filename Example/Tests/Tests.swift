@@ -24,7 +24,7 @@ class Tests: XCTestCase, UITextFieldDelegate {
         sequenceTextField.setMaskSequence(maskSequence: [""])
         inputToTextField(textField: sequenceTextField, string: "123456")
         text = sequenceTextField.text!
-        XCTAssertEqual(text, "123456")
+        XCTAssertEqual(text, "123456123456")
     }
     
     func testSetTextToEmpty(){

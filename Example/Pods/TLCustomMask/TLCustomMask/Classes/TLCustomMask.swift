@@ -34,6 +34,8 @@ public class TLCustomMask {
         get{return self._formattingPattern}
         set(newPattern){
             self._formattingPattern = newPattern
+//            self.finalText = removePatternFromString(string: self.finalText!)
+//            self.finalText = self.finalText?.stringByRemovingRegexMatches(pattern: "\\W")
             //pass previous text to new pattern
             let text = formatString(string: alfanumericOnly(string: self.finalText!))
             self.finalText = text != "" ? addPatternToString(string: text) : newPattern
@@ -196,7 +198,12 @@ public class TLCustomMask {
      */
     private func addPatternToString(string : String) -> String{
         if let range = string.range(of: string){
-            let result = self.formattingPattern.replacingCharacters(in: range, with: string)
+            let result : String
+            if(range.upperBound < self._formattingPattern.endIndex){
+                result = self._formattingPattern.replacingCharacters(in: range, with: string)
+            }else{
+                result = string
+            }
             return result
         }
         return self._formattingPattern

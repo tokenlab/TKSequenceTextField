@@ -65,11 +65,13 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
         if(maskSequence.isEmpty){
             customMask.formattingPattern = ""
             customMask.formatString(string: self.text!)
+            self.maskSequence = [""]
             return
         }
         if(maskSequence.count > 0 && (maskSequence.first?.isEmpty ?? true)){
             customMask.formattingPattern = ""
             customMask.formatString(string: self.text!)
+            self.maskSequence = [""]
             return
         }
         
@@ -122,12 +124,14 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
         }
         
         if maskSequence.count > 0 {
-            //if text length greater than currentMask length AND currentMask is not the last
+            //if text length is greater than currentMask length AND currentMask is not the last
             if((self.text!.characters.count+1) > maskSequence[currentMaskIndex].characters.count){
                 if(currentMaskIndex < maskSequence.count-1){
                     currentMaskIndex += 1
                     self.customMask.formattingPattern = self.maskSequence[currentMaskIndex]
                     self.text = customMask.formatString(string: self.text!+string)
+                }else{
+                    self.text = self.text!.appending(string)
                 }
             }else{
                 self.text = customMask.formatStringWithRange(range: range, string: string)

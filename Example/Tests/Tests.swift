@@ -119,12 +119,92 @@ class Tests: XCTestCase, UITextFieldDelegate {
         XCTAssertEqual(text, "1.234")
     }
     
-    func inputToTextField(textField: TKSequenceTextField, string: String){
-        for index in string.characters.indices {
-            textField.textField(textField,
-                                        shouldChangeCharactersIn: NSMakeRange((textField.text?.characters.count)!, 0),
-                                        replacementString: String(string[index]))
-        }
+    func testBackspaceWithOneMask(){
+        sequenceTextField.setMaskSequence(maskSequence: ["$$$"])
+        inputToTextField(textField: sequenceTextField, string: "123")
+        var text = sequenceTextField.text!
+        XCTAssertEqual(text, "123")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "12")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "1")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "")
     }
     
+    func testBackspaceWithTwoMasks(){
+        sequenceTextField.setMaskSequence(maskSequence: ["$$.$","$$.$$$"])
+        
+        //First Mask
+        inputToTextField(textField: sequenceTextField, string: "123")
+        var text = sequenceTextField.text!
+        XCTAssertEqual(text, "12.3")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "12")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "1")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "")
+        
+        //Second Mask
+        inputToTextField(textField: sequenceTextField, string: "12345")
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "12.345")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "12.34")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "12.3")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "12")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "1")
+        
+        inputBackspaceToTextField(textField: sequenceTextField, ntimes: 1)
+        text = sequenceTextField.text!
+        XCTAssertEqual(text, "")
+    }
+}
+
+func inputToTextField(textField: TKSequenceTextField, string: String){
+    for index in string.characters.indices {
+        textField.textField(textField,
+                            shouldChangeCharactersIn: NSMakeRange((textField.text?.characters.count)!, 0),
+                            replacementString: String(string[index]))
+    }
+}
+
+func inputBackspaceToTextField(textField: TKSequenceTextField, ntimes: Int){
+    for _ in 0..<ntimes {
+        textField.textField(textField,
+                            shouldChangeCharactersIn: NSMakeRange((textField.text?.characters.count)!, 1),
+                            replacementString: "\\b")
+    }
 }

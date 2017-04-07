@@ -1,9 +1,7 @@
 # TKSequenceTextField
 
-[![CI Status](http://img.shields.io/travis/Edudjr/TKSequenceTextField.svg?style=flat)](https://travis-ci.org/Edudjr/TKSequenceTextField)
-[![Version](https://img.shields.io/cocoapods/v/TKSequenceTextField.svg?style=flat)](http://cocoapods.org/pods/TKSequenceTextField)
-[![License](https://img.shields.io/cocoapods/l/TKSequenceTextField.svg?style=flat)](http://cocoapods.org/pods/TKSequenceTextField)
-[![Platform](https://img.shields.io/cocoapods/p/TKSequenceTextField.svg?style=flat)](http://cocoapods.org/pods/TKSequenceTextField)
+[![CI Status](http://img.shields.io/travis/tokenlab/TKSequenceTextField.svg?style=flat)](https://travis-ci.org/Edudjr/TKSequenceTextField)
+[![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
 ## Example
 

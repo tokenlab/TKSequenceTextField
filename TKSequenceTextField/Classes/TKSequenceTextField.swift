@@ -46,14 +46,8 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
                 let previousPatternIndex = currentMaskIndex - 1
                 if maskSequence.indices.contains(previousPatternIndex)
                     && (newText.characters.count >= maskSequence[previousPatternIndex].characters.count) {
-                    //currentMaskIndex -= 1
                     customMask.formattingPattern = maskSequence[currentMaskIndex]
                     newText = customMask.formatString(string: newValue ?? "")
-                }
-                if currentMaskIndex > 0 {
-                    //currentMaskIndex -= 1
-                    //customMask.formattingPattern = maskSequence[currentMaskIndex]
-                    //newText = customMask.formatString(string: newValue ?? "")
                 }
             }
             self._text = newText
@@ -72,15 +66,8 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
     }
     
     public func setMaskSequence(maskSequence: [String]){
-        if(maskSequence.isEmpty){
+        if(maskSequence.isEmpty || (maskSequence.count > 0 && (maskSequence.first?.isEmpty ?? true))){
             customMask.formattingPattern = ""
-            customMask.formatString(string: self.text!)
-            self.maskSequence = [""]
-            return
-        }
-        if(maskSequence.count > 0 && (maskSequence.first?.isEmpty ?? true)){
-            customMask.formattingPattern = ""
-            customMask.formatString(string: self.text!)
             self.maskSequence = [""]
             return
         }
@@ -88,7 +75,7 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
         self.maskSequence = sortArrayByLength(array: maskSequence);
         currentMaskIndex = 0
         customMask.formattingPattern = self.maskSequence[currentMaskIndex];
-        customMask.formatString(string: self.text!)
+        self.text = customMask.formatString(string: self.text!)
     }
     
     private func sortArrayByLength(array: [String]) -> Array<String>{
@@ -116,8 +103,6 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
                 currentMaskIndex = 0
             }
             
-            
-            let string = customMask.formatStringWithRange(range: range, string: string)
             if self.maskSequence.indices.contains(currentMaskIndex){
                 self.customMask.formattingPattern = self.maskSequence[currentMaskIndex]
             }else{

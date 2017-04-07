@@ -60,10 +60,6 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
 //        super.init(frame: frame)
 //        super.delegate = self
 //    }
-    public override func awakeFromNib() {
-        super.awakeFromNib()
-        super.delegate = self
-    }
     
     public func setMaskSequence(maskSequence: [String]){
         if(maskSequence.isEmpty){
@@ -139,7 +135,7 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
             }
         }else{
             self.text = self.text!.appending(string)
-            return true
+            return false
         }
         
         return false

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKSequenceTextField'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'TKSequenceTextField takes multiple masks for real-time formatting'
 
 # This description is used to generate tags and improve search results.

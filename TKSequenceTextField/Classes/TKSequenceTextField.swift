@@ -24,42 +24,42 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
     private var customMask = TLCustomMask()
     private var currentMaskIndex : Int = 0
     private var maskSequence : [String] = []
-    //private var _text : String?
+    private var _text : String?
     public var cleanText : String?
-//    public override var text : String? {
-//        get{
-//            return self._text ?? ""
-//        }
-//        set {
-//            if !maskSequence.indices.contains(currentMaskIndex){
-//                self._text = newValue ?? ""
-//                return
-//            }
-//            
-//            currentMaskIndex = maskSequence.count-1
-//            customMask.formattingPattern = maskSequence[currentMaskIndex]
-//            var newText = customMask.formatString(string: newValue ?? "")
-//            if newText.characters.count < maskSequence[currentMaskIndex].characters.count {
-//                if currentMaskIndex > 0 {
-//                    currentMaskIndex -= 1
-//                    customMask.formattingPattern = maskSequence[currentMaskIndex]
-//                    newText = customMask.formatString(string: newValue ?? "")
-//                }
-//            }
-//            self._text = newText
-//            super.text = newText
-//        }
-//    }
+    public override var text : String? {
+        get{
+            return self._text ?? ""
+        }
+        set {
+            if !maskSequence.indices.contains(currentMaskIndex){
+                self._text = newValue ?? ""
+                return
+            }
+            
+            currentMaskIndex = maskSequence.count-1
+            customMask.formattingPattern = maskSequence[currentMaskIndex]
+            var newText = customMask.formatString(string: newValue ?? "")
+            if newText.characters.count < maskSequence[currentMaskIndex].characters.count {
+                if currentMaskIndex > 0 {
+                    currentMaskIndex -= 1
+                    customMask.formattingPattern = maskSequence[currentMaskIndex]
+                    newText = customMask.formatString(string: newValue ?? "")
+                }
+            }
+            self._text = newText
+            super.text = newText
+        }
+    }
     
-//    required public init?(coder aDecoder: NSCoder) {
-//        super.init(coder: aDecoder)
-//        super.delegate = self
-//    }
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        super.delegate = self
+    }
     
-//    public override init(frame: CGRect) {
-//        super.init(frame: frame)
-//        super.delegate = self
-//    }
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        super.delegate = self
+    }
     
     public func setMaskSequence(maskSequence: [String]){
         if(maskSequence.isEmpty){
@@ -86,7 +86,6 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
     
     // MARK : UITextFieldDelegate
     public func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        print("before")
         return shouldChangeCharactersInRange(range: range, replacementString: string)
     }
     
@@ -132,6 +131,7 @@ public class TKSequenceTextField: UITextField, UITextFieldDelegate{
                 }
             }else{
                 self.text = customMask.formatStringWithRange(range: range, string: string)
+
             }
         }else{
             self.text = self.text!.appending(string)

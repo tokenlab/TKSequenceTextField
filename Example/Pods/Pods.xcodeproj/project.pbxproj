@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AAD248CE1585515D33647FC37A481A /* TKSequenceTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF4275CB55DF08F7A513D80AEA1A7689 /* TKSequenceTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09AAD4620EA59A59BD64E830AEB97D70 /* Pods-TKSequenceTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3581FE79B3966966358C509BF708617 /* Pods-TKSequenceTextField_Tests-dummy.m */; };
+		234071968B1E66DBCF1DAA7042BB1D57 /* Pods-TKSequenceTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECD91901C0FB45AF4979FEBE4C7AF704 /* Pods-TKSequenceTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E4FA2D07FD1ADBDECA6DD5B6CEE60A0 /* TKSequenceTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75BAB8C52B10CC16C1937202BDA7818 /* TKSequenceTextField-dummy.m */; };
+		5F91C20CEA4C5AFB65DEC45852FDACB0 /* TLCustomMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F866A6AF2CF34F90736FA984B41164C2 /* TLCustomMask.swift */; };
+		83A1AFBEBBBFB1E67E4C2DAFFF218798 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B9AAB158B0969E7D202DD6BADD583E /* Foundation.framework */; };
+		8BD3A81B38F258168A5277727876DD83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B9AAB158B0969E7D202DD6BADD583E /* Foundation.framework */; };
+		94BE160B6B0878D3E4789B0435A4F7DA /* Pods-TKSequenceTextField_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BAEA061DCDE2AC4301F691D43727E7 /* Pods-TKSequenceTextField_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADD3B9351ED6F9534FD3465C51B3258B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B9AAB158B0969E7D202DD6BADD583E /* Foundation.framework */; };
+		B7753EE8FE9364ADBD12877F402B29E6 /* TKSequenceTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7096311F107E0880AD1FA8357D5BDD2F /* TKSequenceTextField.swift */; };
+		DE90D7BA3CE88795F4D0F24ABB3C30F8 /* TLCustomMask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E833E4F596B0B23B141612D799C1B4 /* TLCustomMask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E06BA9986B70E711C0AFCDAC30DB13E4 /* TLCustomMask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6C074A3ACBF7F8CEF9B8BEA5EDF2B8 /* TLCustomMask-dummy.m */; };
+		E1235D9AE07774839DF7DEB36C5632A0 /* Pods-TKSequenceTextField_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A2DA27F2D1A29FF049A8C8F424586B /* Pods-TKSequenceTextField_Example-dummy.m */; };
+		EB3D8D0C53A309374472DD1A23CDF385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B9AAB158B0969E7D202DD6BADD583E /* Foundation.framework */; };
+		FC15C6011E1537A711C47CC12EF12A75 /* TLCustomMask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13868944418BC5FBDFD21FE5EFD9CFCB /* TLCustomMask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C113A025F5A5A62D74B39428C26848B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3228194D6CD71BA8043B475D22FB7991;
+			remoteInfo = TKSequenceTextField;
+		};
+		C63E795DE469E33C956F653F47738687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F2B1EF5A34DD4CA80B31BB1B743D5F;
+			remoteInfo = TLCustomMask;
+		};
+		EEE8082B794DF55F3B0B1DD712351826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F2B1EF5A34DD4CA80B31BB1B743D5F;
+			remoteInfo = TLCustomMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04632DD102250C02F05D6929B2905B22 /* Pods-TKSequenceTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKSequenceTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0738D6500A5BD573C5C252E1BE1E44AD /* TLCustomMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLCustomMask.framework; path = TLCustomMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B087CEF31892D53421B5EEF670E071 /* Pods-TKSequenceTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKSequenceTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		13868944418BC5FBDFD21FE5EFD9CFCB /* TLCustomMask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLCustomMask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B9AAB158B0969E7D202DD6BADD583E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1C63BB28BF271421B30795D0FCF580BE /* Pods-TKSequenceTextField_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKSequenceTextField_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D2937FC792EEF80C011D98C679F8ED4 /* Pods-TKSequenceTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSequenceTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2D527B766C17DE5F3E82600F8DA87C5D /* Pods_TKSequenceTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKSequenceTextField_Tests.framework; path = "Pods-TKSequenceTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FAA8486726AEF1F37F8C2759FA262FC /* TKSequenceTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSequenceTextField-prefix.pch"; sourceTree = "<group>"; };
+		3A42D51B01151A32C33ACF00599304F3 /* Pods-TKSequenceTextField_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSequenceTextField_Tests-resources.sh"; sourceTree = "<group>"; };
+		47640ACABEEA92BF9125A5FD7B2ED147 /* Pods-TKSequenceTextField_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKSequenceTextField_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CEDA5D64E37D6F2A94095A82757CB4E /* Pods-TKSequenceTextField_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKSequenceTextField_Example.modulemap"; sourceTree = "<group>"; };
+		5F90A010AF6BAFFCB6F57792CA410B40 /* Pods-TKSequenceTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSequenceTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FDA1DB14CEC85A2C929B072EC7043AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7096311F107E0880AD1FA8357D5BDD2F /* TKSequenceTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TKSequenceTextField.swift; sourceTree = "<group>"; };
+		71491B441E2B3EC1BA036B07AFB0656F /* TLCustomMask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomMask-prefix.pch"; sourceTree = "<group>"; };
+		79A53486CCC476F391FD33EFD71AE024 /* Pods-TKSequenceTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSequenceTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE446F88E1E610BCABB8FE8824E5942 /* Pods-TKSequenceTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TKSequenceTextField_Tests.modulemap"; sourceTree = "<group>"; };
+		7DC88E882DFA67C146FFDE2A653AE3B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BE1251137D630841D015D846B28F17 /* Pods-TKSequenceTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKSequenceTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E833E4F596B0B23B141612D799C1B4 /* TLCustomMask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLCustomMask-umbrella.h"; sourceTree = "<group>"; };
+		96EE9C9843A921ACD65B2B05953A4947 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97FA033FA94E4DDD062C293B57AE04FA /* TLCustomMask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TLCustomMask.modulemap; sourceTree = "<group>"; };
+		9F75A2FB899A1547FE98EC757903D309 /* TKSequenceTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKSequenceTextField.xcconfig; sourceTree = "<group>"; };
+		A07503080A77460F291A05190F00535B /* TKSequenceTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKSequenceTextField.framework; path = TKSequenceTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A9128BAACF0D24AA928FD1DCC6B063 /* TLCustomMask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLCustomMask.xcconfig; sourceTree = "<group>"; };
+		B3581FE79B3966966358C509BF708617 /* Pods-TKSequenceTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKSequenceTextField_Tests-dummy.m"; sourceTree = "<group>"; };
+		B35E1CE28BED0746A1064C05DE930F60 /* Pods_TKSequenceTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKSequenceTextField_Example.framework; path = "Pods-TKSequenceTextField_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C3B0E3BB7072C9237091513C3B4BFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75BAB8C52B10CC16C1937202BDA7818 /* TKSequenceTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKSequenceTextField-dummy.m"; sourceTree = "<group>"; };
+		CD313F14CE333A7E4E4527BA936B812F /* Pods-TKSequenceTextField_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSequenceTextField_Example-resources.sh"; sourceTree = "<group>"; };
+		CF4275CB55DF08F7A513D80AEA1A7689 /* TKSequenceTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKSequenceTextField-umbrella.h"; sourceTree = "<group>"; };
+		D1BAEA061DCDE2AC4301F691D43727E7 /* Pods-TKSequenceTextField_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKSequenceTextField_Example-umbrella.h"; sourceTree = "<group>"; };
+		E211118A9837393104DBE83BDFE7EAEF /* TKSequenceTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TKSequenceTextField.modulemap; sourceTree = "<group>"; };
+		E8A2DA27F2D1A29FF049A8C8F424586B /* Pods-TKSequenceTextField_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKSequenceTextField_Example-dummy.m"; sourceTree = "<group>"; };
+		ECD91901C0FB45AF4979FEBE4C7AF704 /* Pods-TKSequenceTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKSequenceTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F22135EA7A1BF7A60AC83DC8C04FA495 /* Pods-TKSequenceTextField_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSequenceTextField_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F509728096C962B8601A55D3670443CE /* Pods-TKSequenceTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKSequenceTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F866A6AF2CF34F90736FA984B41164C2 /* TLCustomMask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCustomMask.swift; path = TLCustomMask/Classes/TLCustomMask.swift; sourceTree = "<group>"; };
+		FD6C074A3ACBF7F8CEF9B8BEA5EDF2B8 /* TLCustomMask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLCustomMask-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38BB9508BE440067C65B35D45974B0FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD3B9351ED6F9534FD3465C51B3258B /* Foundation.framework in Frameworks */,
+				FC15C6011E1537A711C47CC12EF12A75 /* TLCustomMask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79F731F98B7ED68224C1A0BC39503BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3D8D0C53A309374472DD1A23CDF385 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9358A52BAD0A1AC5DF30C670BFAC7252 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD3A81B38F258168A5277727876DD83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A143DEC500A42AFFFBD8520A54CCAD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1AFBEBBBFB1E67E4C2DAFFF218798 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1233E844AFE342F3E7E4249C14CAC52A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				16B9AAB158B0969E7D202DD6BADD583E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1B8DF59BD3A4B27E645680A9093A7718 /* TKSequenceTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D5FFC16D40B26310E00933E39D6A54B8 /* Support Files */,
+				2163EF9644674A73848FA65BCB8CD53B /* TKSequenceTextField */,
+			);
+			name = TKSequenceTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2163EF9644674A73848FA65BCB8CD53B /* TKSequenceTextField */ = {
+			isa = PBXGroup;
+			children = (
+				E429D6C9B98EC3C4D8A344C56F05C1A2 /* Classes */,
+			);
+			name = TKSequenceTextField;
+			path = TKSequenceTextField;
+			sourceTree = "<group>";
+		};
+		4445D804A281077EA074983553D88E98 /* TLCustomMask */ = {
+			isa = PBXGroup;
+			children = (
+				F866A6AF2CF34F90736FA984B41164C2 /* TLCustomMask.swift */,
+				51C3D952C22396CFE8992754EBE5898D /* Support Files */,
+			);
+			name = TLCustomMask;
+			path = TLCustomMask;
+			sourceTree = "<group>";
+		};
+		51C3D952C22396CFE8992754EBE5898D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0C3B0E3BB7072C9237091513C3B4BFB /* Info.plist */,
+				97FA033FA94E4DDD062C293B57AE04FA /* TLCustomMask.modulemap */,
+				A7A9128BAACF0D24AA928FD1DCC6B063 /* TLCustomMask.xcconfig */,
+				FD6C074A3ACBF7F8CEF9B8BEA5EDF2B8 /* TLCustomMask-dummy.m */,
+				71491B441E2B3EC1BA036B07AFB0656F /* TLCustomMask-prefix.pch */,
+				93E833E4F596B0B23B141612D799C1B4 /* TLCustomMask-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLCustomMask";
+			sourceTree = "<group>";
+		};
+		77DF4DFA8938C18169D97758609F0933 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9326475EA38A43BA4D8D0EF3898570D /* Pods-TKSequenceTextField_Example */,
+				F7D699EBA4A1E65DA8CB007497CFA4BF /* Pods-TKSequenceTextField_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7E748BBCBDC3C477483FE6FB6FDC35AC /* Development Pods */,
+				871EFBCD9F79593578704B5B0E6F1FF4 /* Frameworks */,
+				A859FCF32B256C427FF9A8C1A8DD9793 /* Pods */,
+				C0214F02B07BC401B3BE436CDD7B0208 /* Products */,
+				77DF4DFA8938C18169D97758609F0933 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E748BBCBDC3C477483FE6FB6FDC35AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B8DF59BD3A4B27E645680A9093A7718 /* TKSequenceTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		871EFBCD9F79593578704B5B0E6F1FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13868944418BC5FBDFD21FE5EFD9CFCB /* TLCustomMask.framework */,
+				1233E844AFE342F3E7E4249C14CAC52A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A859FCF32B256C427FF9A8C1A8DD9793 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4445D804A281077EA074983553D88E98 /* TLCustomMask */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0214F02B07BC401B3BE436CDD7B0208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35E1CE28BED0746A1064C05DE930F60 /* Pods_TKSequenceTextField_Example.framework */,
+				2D527B766C17DE5F3E82600F8DA87C5D /* Pods_TKSequenceTextField_Tests.framework */,
+				A07503080A77460F291A05190F00535B /* TKSequenceTextField.framework */,
+				0738D6500A5BD573C5C252E1BE1E44AD /* TLCustomMask.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5FFC16D40B26310E00933E39D6A54B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FDA1DB14CEC85A2C929B072EC7043AC /* Info.plist */,
+				E211118A9837393104DBE83BDFE7EAEF /* TKSequenceTextField.modulemap */,
+				9F75A2FB899A1547FE98EC757903D309 /* TKSequenceTextField.xcconfig */,
+				C75BAB8C52B10CC16C1937202BDA7818 /* TKSequenceTextField-dummy.m */,
+				2FAA8486726AEF1F37F8C2759FA262FC /* TKSequenceTextField-prefix.pch */,
+				CF4275CB55DF08F7A513D80AEA1A7689 /* TKSequenceTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TKSequenceTextField";
+			sourceTree = "<group>";
+		};
+		E429D6C9B98EC3C4D8A344C56F05C1A2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7096311F107E0880AD1FA8357D5BDD2F /* TKSequenceTextField.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9326475EA38A43BA4D8D0EF3898570D /* Pods-TKSequenceTextField_Example */ = {
+			isa = PBXGroup;
+			children = (
+				96EE9C9843A921ACD65B2B05953A4947 /* Info.plist */,
+				5CEDA5D64E37D6F2A94095A82757CB4E /* Pods-TKSequenceTextField_Example.modulemap */,
+				47640ACABEEA92BF9125A5FD7B2ED147 /* Pods-TKSequenceTextField_Example-acknowledgements.markdown */,
+				1C63BB28BF271421B30795D0FCF580BE /* Pods-TKSequenceTextField_Example-acknowledgements.plist */,
+				E8A2DA27F2D1A29FF049A8C8F424586B /* Pods-TKSequenceTextField_Example-dummy.m */,
+				F22135EA7A1BF7A60AC83DC8C04FA495 /* Pods-TKSequenceTextField_Example-frameworks.sh */,
+				CD313F14CE333A7E4E4527BA936B812F /* Pods-TKSequenceTextField_Example-resources.sh */,
+				D1BAEA061DCDE2AC4301F691D43727E7 /* Pods-TKSequenceTextField_Example-umbrella.h */,
+				79A53486CCC476F391FD33EFD71AE024 /* Pods-TKSequenceTextField_Example.debug.xcconfig */,
+				2D2937FC792EEF80C011D98C679F8ED4 /* Pods-TKSequenceTextField_Example.release.xcconfig */,
+			);
+			name = "Pods-TKSequenceTextField_Example";
+			path = "Target Support Files/Pods-TKSequenceTextField_Example";
+			sourceTree = "<group>";
+		};
+		F7D699EBA4A1E65DA8CB007497CFA4BF /* Pods-TKSequenceTextField_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7DC88E882DFA67C146FFDE2A653AE3B7 /* Info.plist */,
+				7BE446F88E1E610BCABB8FE8824E5942 /* Pods-TKSequenceTextField_Tests.modulemap */,
+				08B087CEF31892D53421B5EEF670E071 /* Pods-TKSequenceTextField_Tests-acknowledgements.markdown */,
+				04632DD102250C02F05D6929B2905B22 /* Pods-TKSequenceTextField_Tests-acknowledgements.plist */,
+				B3581FE79B3966966358C509BF708617 /* Pods-TKSequenceTextField_Tests-dummy.m */,
+				F509728096C962B8601A55D3670443CE /* Pods-TKSequenceTextField_Tests-frameworks.sh */,
+				3A42D51B01151A32C33ACF00599304F3 /* Pods-TKSequenceTextField_Tests-resources.sh */,
+				ECD91901C0FB45AF4979FEBE4C7AF704 /* Pods-TKSequenceTextField_Tests-umbrella.h */,
+				5F90A010AF6BAFFCB6F57792CA410B40 /* Pods-TKSequenceTextField_Tests.debug.xcconfig */,
+				90BE1251137D630841D015D846B28F17 /* Pods-TKSequenceTextField_Tests.release.xcconfig */,
+			);
+			name = "Pods-TKSequenceTextField_Tests";
+			path = "Target Support Files/Pods-TKSequenceTextField_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D3679AF2A42126C39386BD85B677F35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AAD248CE1585515D33647FC37A481A /* TKSequenceTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BAE2C4CAE28CDDA6D0BDE12176BDAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BE160B6B0878D3E4789B0435A4F7DA /* Pods-TKSequenceTextField_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD14092995917D43C37CF985D0686CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE90D7BA3CE88795F4D0F24ABB3C30F8 /* TLCustomMask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09DBBF1E1A21A6F9FE7BFB175AF9185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234071968B1E66DBCF1DAA7042BB1D57 /* Pods-TKSequenceTextField_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3228194D6CD71BA8043B475D22FB7991 /* TKSequenceTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FADD8898152CA9C0238DDA398ABCDD7 /* Build configuration list for PBXNativeTarget "TKSequenceTextField" */;
+			buildPhases = (
+				DEC9C4BE29E02D654C7C30E38F5E2FA7 /* Sources */,
+				38BB9508BE440067C65B35D45974B0FA /* Frameworks */,
+				0D3679AF2A42126C39386BD85B677F35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51F4C5F2CCEDC7EC8498D83E362B76D2 /* PBXTargetDependency */,
+			);
+			name = TKSequenceTextField;
+			productName = TKSequenceTextField;
+			productReference = A07503080A77460F291A05190F00535B /* TKSequenceTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35064C49212546DC1DE4DEA3594BE4FB /* Pods-TKSequenceTextField_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCA75E8B3306BCD35E7090E2EFC18AD /* Build configuration list for PBXNativeTarget "Pods-TKSequenceTextField_Tests" */;
+			buildPhases = (
+				E7A214AE09712830F8C8F0F21B9F22E2 /* Sources */,
+				9358A52BAD0A1AC5DF30C670BFAC7252 /* Frameworks */,
+				D09DBBF1E1A21A6F9FE7BFB175AF9185 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TKSequenceTextField_Tests";
+			productName = "Pods-TKSequenceTextField_Tests";
+			productReference = 2D527B766C17DE5F3E82600F8DA87C5D /* Pods_TKSequenceTextField_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49F2B1EF5A34DD4CA80B31BB1B743D5F /* TLCustomMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB1745987CBE16864D1AD9B5704C2C92 /* Build configuration list for PBXNativeTarget "TLCustomMask" */;
+			buildPhases = (
+				6FC6296FF9AA0A6900AF40A3504E507F /* Sources */,
+				9A143DEC500A42AFFFBD8520A54CCAD2 /* Frameworks */,
+				9AD14092995917D43C37CF985D0686CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLCustomMask;
+			productName = TLCustomMask;
+			productReference = 0738D6500A5BD573C5C252E1BE1E44AD /* TLCustomMask.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A08A5D73545A733414A5EC622143943E /* Pods-TKSequenceTextField_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D92A32280E93974DEBE210587CCC429 /* Build configuration list for PBXNativeTarget "Pods-TKSequenceTextField_Example" */;
+			buildPhases = (
+				DA4C6A1C11EBA80B665FECE142760ADD /* Sources */,
+				79F731F98B7ED68224C1A0BC39503BEE /* Frameworks */,
+				86BAE2C4CAE28CDDA6D0BDE12176BDAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E1BA5706D2EF5EB32AF62AC373DC048 /* PBXTargetDependency */,
+				54F7BAFC2C008DB25099B6E32FD871E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-TKSequenceTextField_Example";
+			productName = "Pods-TKSequenceTextField_Example";
+			productReference = B35E1CE28BED0746A1064C05DE930F60 /* Pods_TKSequenceTextField_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C0214F02B07BC401B3BE436CDD7B0208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08A5D73545A733414A5EC622143943E /* Pods-TKSequenceTextField_Example */,
+				35064C49212546DC1DE4DEA3594BE4FB /* Pods-TKSequenceTextField_Tests */,
+				3228194D6CD71BA8043B475D22FB7991 /* TKSequenceTextField */,
+				49F2B1EF5A34DD4CA80B31BB1B743D5F /* TLCustomMask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FC6296FF9AA0A6900AF40A3504E507F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E06BA9986B70E711C0AFCDAC30DB13E4 /* TLCustomMask-dummy.m in Sources */,
+				5F91C20CEA4C5AFB65DEC45852FDACB0 /* TLCustomMask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4C6A1C11EBA80B665FECE142760ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1235D9AE07774839DF7DEB36C5632A0 /* Pods-TKSequenceTextField_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEC9C4BE29E02D654C7C30E38F5E2FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4FA2D07FD1ADBDECA6DD5B6CEE60A0 /* TKSequenceTextField-dummy.m in Sources */,
+				B7753EE8FE9364ADBD12877F402B29E6 /* TKSequenceTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A214AE09712830F8C8F0F21B9F22E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AAD4620EA59A59BD64E830AEB97D70 /* Pods-TKSequenceTextField_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51F4C5F2CCEDC7EC8498D83E362B76D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLCustomMask;
+			target = 49F2B1EF5A34DD4CA80B31BB1B743D5F /* TLCustomMask */;
+			targetProxy = EEE8082B794DF55F3B0B1DD712351826 /* PBXContainerItemProxy */;
+		};
+		54F7BAFC2C008DB25099B6E32FD871E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLCustomMask;
+			target = 49F2B1EF5A34DD4CA80B31BB1B743D5F /* TLCustomMask */;
+			targetProxy = C63E795DE469E33C956F653F47738687 /* PBXContainerItemProxy */;
+		};
+		8E1BA5706D2EF5EB32AF62AC373DC048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TKSequenceTextField;
+			target = 3228194D6CD71BA8043B475D22FB7991 /* TKSequenceTextField */;
+			targetProxy = 1C113A025F5A5A62D74B39428C26848B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E37A7B71F1C0191809B03A8BBFAA2E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A9128BAACF0D24AA928FD1DCC6B063 /* TLCustomMask.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLCustomMask/TLCustomMask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLCustomMask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLCustomMask/TLCustomMask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TLCustomMask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		495F113E6E64B94B5E54A4BA5E87FB2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A53486CCC476F391FD33EFD71AE024 /* Pods-TKSequenceTextField_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSequenceTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSequenceTextField_Example/Pods-TKSequenceTextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKSequenceTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7B71A2EAD85DA55916F30DA05FFAF25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2937FC792EEF80C011D98C679F8ED4 /* Pods-TKSequenceTextField_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSequenceTextField_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSequenceTextField_Example/Pods-TKSequenceTextField_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKSequenceTextField_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9A718BD651857D8E1B217CA55940D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F75A2FB899A1547FE98EC757903D309 /* TKSequenceTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSequenceTextField/TKSequenceTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSequenceTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSequenceTextField/TKSequenceTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TKSequenceTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBDE8BD9B1F407DED42BBD250929D204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F75A2FB899A1547FE98EC757903D309 /* TKSequenceTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TKSequenceTextField/TKSequenceTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKSequenceTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKSequenceTextField/TKSequenceTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TKSequenceTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBBF8C2873B3E27B741867E26EF5F673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F90A010AF6BAFFCB6F57792CA410B40 /* Pods-TKSequenceTextField_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSequenceTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSequenceTextField_Tests/Pods-TKSequenceTextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKSequenceTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1A59D531F9A76570E870E5EBBDB65A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BE1251137D630841D015D846B28F17 /* Pods-TKSequenceTextField_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TKSequenceTextField_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TKSequenceTextField_Tests/Pods-TKSequenceTextField_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TKSequenceTextField_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F92C366683058F081A05B060AC650BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A9128BAACF0D24AA928FD1DCC6B063 /* TLCustomMask.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TLCustomMask/TLCustomMask-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLCustomMask/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLCustomMask/TLCustomMask.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TLCustomMask;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D92A32280E93974DEBE210587CCC429 /* Build configuration list for PBXNativeTarget "Pods-TKSequenceTextField_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495F113E6E64B94B5E54A4BA5E87FB2F /* Debug */,
+				7B71A2EAD85DA55916F30DA05FFAF25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DCA75E8B3306BCD35E7090E2EFC18AD /* Build configuration list for PBXNativeTarget "Pods-TKSequenceTextField_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBF8C2873B3E27B741867E26EF5F673 /* Debug */,
+				F1A59D531F9A76570E870E5EBBDB65A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FADD8898152CA9C0238DDA398ABCDD7 /* Build configuration list for PBXNativeTarget "TKSequenceTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A718BD651857D8E1B217CA55940D3D /* Debug */,
+				CBDE8BD9B1F407DED42BBD250929D204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB1745987CBE16864D1AD9B5704C2C92 /* Build configuration list for PBXNativeTarget "TLCustomMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92C366683058F081A05B060AC650BD7 /* Debug */,
+				0E37A7B71F1C0191809B03A8BBFAA2E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

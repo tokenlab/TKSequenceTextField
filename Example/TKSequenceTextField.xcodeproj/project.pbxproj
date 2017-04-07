@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		15264CAF8AD96AC94D179DD7 /* Pods_TKSequenceTextField_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKSequenceTextField_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		281451CA77677938F711D16C /* Pods_TKSequenceTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKSequenceTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		391F132DBF1A3CDFF6E37AC0 /* TKSequenceTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKSequenceTextField.podspec; path = ../TKSequenceTextField.podspec; sourceTree = "<group>"; };
-		47644AA2B7E5CCF106DE4087 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		391F132DBF1A3CDFF6E37AC0 /* TKSequenceTextField.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKSequenceTextField.podspec; path = ../TKSequenceTextField.podspec; sourceTree = "<group>"; };
+		47644AA2B7E5CCF106DE4087 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TKSequenceTextField_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKSequenceTextField_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		926BA915BE7BD8571C15513D /* Pods-TKSequenceTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKSequenceTextField_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKSequenceTextField_Tests/Pods-TKSequenceTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D08FE4BBB4327601CF01D682 /* Pods-TKSequenceTextField_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKSequenceTextField_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKSequenceTextField_Example/Pods-TKSequenceTextField_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB9FF9AA656C3A957871269B /* Pods-TKSequenceTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKSequenceTextField_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKSequenceTextField_Tests/Pods-TKSequenceTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EF5E3AC12BA0DA76D1472D33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF5E3AC12BA0DA76D1472D33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F4D9C46B4D3DD8E696383EE7 /* Pods-TKSequenceTextField_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKSequenceTextField_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKSequenceTextField_Example/Pods-TKSequenceTextField_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -536,6 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKSequenceTextField_Example.app/TKSequenceTextField_Example";
 			};
 			name = Debug;
 		};
@@ -552,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKSequenceTextField_Example.app/TKSequenceTextField_Example";
 			};
 			name = Release;
 		};

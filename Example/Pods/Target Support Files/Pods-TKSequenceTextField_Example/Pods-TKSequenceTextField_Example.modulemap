@@ -1,0 +1,6 @@
+framework module Pods_TKSequenceTextField_Example {
+  umbrella header "Pods-TKSequenceTextField_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

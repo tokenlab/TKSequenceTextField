@@ -1,0 +1,6 @@
+framework module TKSequenceTextField {
+  umbrella header "TKSequenceTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

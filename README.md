@@ -1,6 +1,6 @@
 # TKSequenceTextField
 
-[![CI Status](http://img.shields.io/travis/tokenlab/TKSequenceTextField.svg?style=flat)](https://travis-ci.org/Edudjr/TKSequenceTextField)
+[![CI Status](http://img.shields.io/travis/tokenlab/TKSequenceTextField.svg?style=flat)](https://travis-ci.org/tokenlab/TKSequenceTextField)
 [![Semver](http://img.shields.io/SemVer/2.0.0.png)](http://semver.org/spec/v2.0.0.html)
 
 **TKSequenceTextField** is an UITextField component that takes multiple masks and applies them in real-time on the user's input, based on the input's length.
